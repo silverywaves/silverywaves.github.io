@@ -8,6 +8,7 @@
   margin-bottom: 10px;
 }
 
+.tStory,
 .icon-button i {
   color: $textColorDark;
   border-radius: 2.6rem;
@@ -26,6 +27,22 @@
   width: 2.6rem;
   margin-bottom: 10px;
   transition: 0.2s ease-in;
+}
+
+.icon-button svg {
+  width: 2.6rem;
+  height: 2.6rem;
+  vertical-align: middle;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tStory,
+.notion {
+  margin: 0 5px;
 }
 
 .facebook i {
@@ -52,8 +69,10 @@
   background-color: $twitter;
 }
 
-.medium i {
-  background-color: $medium;
+.notion img {
+  background-color: none;
+  position: relative;
+  top: 10px;
 }
 
 .stack-overflow i {
@@ -68,6 +87,10 @@
   background-color: $instagram;
 }
 
+.icon-button:hover svg.default {
+  opacity: 0;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -77,9 +100,16 @@
 .facebook i:hover,
 .instagram i:hover,
 .stack-overflow i:hover,
-.kaggle i:hover,
-.medium i:hover {
+.kaggle i:hover {
   background-color: $textColor;
+}
+
+.icon-button svg.hover {
+  opacity: 0;
+}
+
+.icon-button:hover svg.hover {
+  opacity: 1;
 }
 
 /* Media Query */

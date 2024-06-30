@@ -1,6 +1,8 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import {ReactComponent as TStoryLogo} from "../../assets/images/tStoryLogo.svg";
+import {ReactComponent as TStoryLogoHover} from "../../assets/images/tStoryLogoHover.svg";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -92,26 +94,27 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.medium ? (
+      {socialMediaLinks.notion ? (
         <a
-          href={socialMediaLinks.medium}
-          className="icon-button medium"
+          href={socialMediaLinks.notion}
+          className="icon-button notion"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-medium"></i>
+          <img src="/notionLogo.png" alt="notion" className="social-icon" />
           <span></span>
         </a>
       ) : null}
 
-      {socialMediaLinks.stackoverflow ? (
+      {socialMediaLinks.tStory ? (
         <a
-          href={socialMediaLinks.stackoverflow}
-          className="icon-button stack-overflow"
+          href={socialMediaLinks.tStory}
+          className="icon-button tStory"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-stack-overflow"></i>
+          <TStoryLogo className="social-icon default" />
+          <TStoryLogoHover className="social-icon hover" />
           <span></span>
         </a>
       ) : null}
