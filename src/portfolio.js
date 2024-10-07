@@ -3,13 +3,13 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import loadingAnimation from "./assets/lottie/loadingAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
+  animation: loadingAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
 
@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "silverywaves",
-  title: "Hi all, I'm 조은파",
+  title: "Hello, I'm Here!",
   subTitle: emoji(
-    "열정과 의지을 가진 비전공 출신 풀스택 개발자입니다. 💻 JavaScript / Reactjs 및 기타 라이브러리와 프레임워크로 웹 애플리케이션을 구축한 경험이 있습니다."
+    "열정과 의지를 가진 비전공 출신 풀스택 개발자 '조은파'입니다. 💻 JavaScript / Reactjs 및 기타 라이브러리와 프레임워크로 웹 애플리케이션을 구축한 경험이 있습니다."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ZLvQ6eagGhRtPcVTUzxqzkPZKHCvjZlf/view?usp=drivesdk", // Set to empty to hide the button
@@ -120,9 +120,9 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
+      schoolName: "영진전문대학",
+      logo: require("./assets/images/yeungjinLogo.png"),  
+      subHeader: "국제관광계열 호텔항공전공",
       duration: "2012.03 - 2014.08",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
@@ -131,10 +131,10 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "코리아 IT 아카데미",
+      logo: require("./assets/images/koreaItLogo.png"),
+      subHeader: "임베디드 소프트웨어 융합 풀스택 개발자 양성과정",
+      duration: "2024.01 - 2024.07",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -170,27 +170,35 @@ const workExperiences = {
     {
       role: "디지털 세일즈 예약 매니저",
       company: "MajonGlad Jeju",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/maisonLogo.png"),
       date: "2022.02 – 2023.05",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "업셀링 전략으로 객실 매출 증가",
+        "고객 상담 테스트 1위",
+        "오버부킹 예방 관리",
       ]
     },
     {
       role: "인사, 총무, 회계 담당자",
       company: "아세아건영",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/asiaLogo.png"),
       date: "2020.10 – 2022.02",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "인사 관리 및 복지 개선",
+        "총무 업무 및 시설 관리",
+        "회계 업무 및 재무 보고",
+      ]
     },
     {
       role: "프론트데스크 인챠지",
       company: "Oceansuites Jeju",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/oceansuitesLogo.png"),
       date: "2013.09 – 2019.09",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "고객 응대 및 예약 관리",
+        "고객 불만 처리 및 서비스 개선",
+        "팀원 교육 및 관리"
+      ]    
     }
   ]
 };
