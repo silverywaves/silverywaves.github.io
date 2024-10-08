@@ -1,12 +1,12 @@
-import React from "react";
-import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
-import {ReactComponent as TStoryLogo} from "../../assets/images/tStoryLogo.svg";
-import {ReactComponent as TStoryLogoHover} from "../../assets/images/tStoryLogoHover.svg";
+import React from 'react'
+import './SocialMedia.scss'
+import {socialMediaLinks} from '../../portfolio'
+import {ReactComponent as TStoryLogo} from '../../assets/images/tStoryLogo.svg'
+import {ReactComponent as TStoryLogoHover} from '../../assets/images/tStoryLogoHover.svg'
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
-    return null;
+    return null
   }
   return (
     <div className="social-media-div">
@@ -131,5 +131,5 @@ export default function socialMedia() {
         </a>
       ) : null}
     </div>
-  );
+  )
 }
