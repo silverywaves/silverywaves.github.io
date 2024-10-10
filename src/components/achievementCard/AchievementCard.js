@@ -24,8 +24,8 @@ export default function AchievementCard({cardInfo, isDark}) {
         <h5 className={isDark ? 'dark-mode card-title' : 'card-title'}>
           {cardInfo.title}
         </h5>
-        <p className={isDark ? 'dark-mode card-subtitle' : 'card-subtitle'}>
-          {cardInfo.description}
+        <p className={isDark ? 'dark-mode card-subtitle' : 'card-subtitle'}
+          dangerouslySetInnerHTML={{ __html: cardInfo.description }}>
         </p>
       </div>
       <div className="certificate-card-footer">
@@ -41,7 +41,7 @@ export default function AchievementCard({cardInfo, isDark}) {
               {v.name}
             </span>
           )
-        })}
+        })}   
       </div>
     </div>
   )

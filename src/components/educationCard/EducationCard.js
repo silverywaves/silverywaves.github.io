@@ -15,6 +15,23 @@ export default function EducationCard({school}) {
         ))
       : null
   }
+
+  const GetFooterLinks = ({footerLink}) => {
+    return footerLink
+      ? footerLink.map((link, i) => (
+          <a
+            key={i}
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="education-footer-link"
+          >
+            {link.name}
+          </a>
+        ))
+      : null
+  }
+
   const {isDark} = useContext(StyleContext)
 
   if (!school.logo)
@@ -58,6 +75,9 @@ export default function EducationCard({school}) {
               <div className="education-text-bullets">
                 <ul>
                   <GetDescBullets descBullets={school.descBullets} />
+                  <div className="education-footer-links">
+                    <GetFooterLinks footerLink={school.footerLink} />
+                  </div>
                 </ul>
               </div>
             </div>
