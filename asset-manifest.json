@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.71c120fc.css",
-    "main.js": "/static/js/main.d6c74b55.js",
+    "main.js": "/static/js/main.f47539fd.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.785ece8b.chunk.js": "/static/js/769.785ece8b.chunk.js",
+    "static/js/769.2de5ef33.chunk.js": "/static/js/769.2de5ef33.chunk.js",
     "static/media/logo.png": "/static/media/logo.914fd67d00041a960892.png",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -17,34 +17,31 @@
     "static/media/yeungjinLogo.png": "/static/media/yeungjinLogo.b36383263dc0c35cd005.png",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
-    "static/media/koreaTax.png": "/static/media/koreaTax.5ea3849010e84ff00032.png",
-    "static/media/drive.png": "/static/media/drive.87a5cb1ecebc9d49c729.png",
-    "static/media/KAIT.png": "/static/media/KAIT.cd7aaf0423f6ec85d5dc.png",
     "static/media/koreaItLogo.png": "/static/media/koreaItLogo.a98f47d1b643865a0b34.png",
-    "static/media/HRDK.png": "/static/media/HRDK.82ad35320f39fa7e0c00.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/oceansuitesLogo.png": "/static/media/oceansuitesLogo.06bde990b74c4fe8275b.png",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/data.png": "/static/media/data.993e964201e5b91e08cf.png",
-    "static/media/samil.png": "/static/media/samil.cca1a5d6530b67f34a0b.png",
+    "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/maisonLogo.png": "/static/media/maisonLogo.d64740ac2c9c2ae9fb57.png",
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/index.html",
     "static/media/tStoryLogo.svg": "/static/media/tStoryLogo.480729bda3f1ea58bf93e949ccbdfdd5.svg",
     "static/media/tStoryLogoHover.svg": "/static/media/tStoryLogoHover.4e21617790b7f3ca36b72141a7ba64f3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.71c120fc.css.map": "/static/css/main.71c120fc.css.map",
-    "main.d6c74b55.js.map": "/static/js/main.d6c74b55.js.map",
+    "main.f47539fd.js.map": "/static/js/main.f47539fd.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
-    "769.785ece8b.chunk.js.map": "/static/js/769.785ece8b.chunk.js.map"
+    "769.2de5ef33.chunk.js.map": "/static/js/769.2de5ef33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71c120fc.css",
-    "static/js/main.d6c74b55.js"
+    "static/js/main.f47539fd.js"
   ]
 }
