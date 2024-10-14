@@ -384,12 +384,12 @@ const achievementSection = {
       subtitle: "경찰청(운전면허시험관리단)<br/>2012.01 합격",
       image: require("./assets/images/drive.png"),
       imageAlt: "PWA Logo",
-      // footerLink: [
-      //   {
-      //     name: "Certification",
-      //     url: "https://drive.google.com/file/d/1jZfZXJ0Fz24yoRQWlAARhxiyL1rzmt2V/view?usp=sharing"
-      //   }
-      // ]
+      footerLink: [
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/1jZfZXJ0Fz24yoRQWlAARhxiyL1rzmt2V/view?usp=sharing"
+        // }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
