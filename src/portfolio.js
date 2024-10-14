@@ -361,7 +361,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1jZfZXJ0Fz24yoRQWlAARhxiyL1rzmt2V/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1LtuDyV2nb5T7l9xPzcws1dY2ESnh-AsP/view?usp=sharing"
         }
       ]
     },
@@ -374,7 +374,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1jZfZXJ0Fz24yoRQWlAARhxiyL1rzmt2V/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1A4BE5rrshidgCN1J4y_QUBTr6H_v7UMJ/view?usp=sharing"
         }
       ]
     },
@@ -384,12 +384,12 @@ const achievementSection = {
       subtitle: "경찰청(운전면허시험관리단)<br/>2012.01 합격",
       image: require("./assets/images/drive.png"),
       imageAlt: "PWA Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/1jZfZXJ0Fz24yoRQWlAARhxiyL1rzmt2V/view?usp=sharing"
-        }
-      ]
+      // footerLink: [
+      //   {
+      //     name: "Certification",
+      //     url: "https://drive.google.com/file/d/1jZfZXJ0Fz24yoRQWlAARhxiyL1rzmt2V/view?usp=sharing"
+      //   }
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
