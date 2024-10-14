@@ -5,6 +5,19 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
+import Logo from './assets/images/logo.png';
+import LogoImage1 from './assets/images/yeungjinLogo.png';
+import LogoImage2 from './assets/images/koreaItLogo.png';
+import MaisonLogo from './assets/images/maisonLogo.png';
+import AsiaLogo from './assets/images/asiaLogo.png';
+import OceanLogo from './assets/images/oceansuitesLogo.png';
+import HRDKImage from './assets/images/HRDK.png';
+import DataImage from './assets/images/data.png';
+import KAITImage from './assets/images/KAIT.png';
+import KoreaTaxImage from './assets/images/koreaTax.png';
+import SamilImage from './assets/images/samil.png';
+import DriveImage from './assets/images/drive.png';
+
 // Splash Screen
 
 const splashScreen = {
@@ -125,7 +138,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "영진전문대학",
-      logo: require("./assets/images/yeungjinLogo.png"),
+      logo: LogoImage1,
       subHeader: "국제관광계열",
       duration: "2012.03 - 2014.08",
       desc: "호텔항공 중 호텔경영학 전공",
@@ -145,7 +158,7 @@ const educationInfo = {
     },
     {
       schoolName: "코리아 IT 아카데미",
-      logo: require("./assets/images/koreaItLogo.png"),
+      logo: LogoImage2,
       subHeader: "임베디드 소프트웨어 융합 풀스택 개발자 양성과정",
       duration: "2024.01 - 2024.07",
       desc: "응용SW엔지니어링 ( Java 기반 웹 개발, 웹 풀스택 개발 및 임베디드 시스템 개발 )",
@@ -196,7 +209,7 @@ const workExperiences = {
     {
       role: "디지털 세일즈 예약 매니저",
       company: "MajonGlad Jeju",
-      companylogo: require("./assets/images/maisonLogo.png"),
+      companylogo: MaisonLogo,
       date: "2022.02 – 2023.05",
       descBullets: [
         "업셀링 전략으로 객실 매출 증가",
@@ -207,7 +220,7 @@ const workExperiences = {
     {
       role: "인사, 총무, 회계 담당자",
       company: "아세아건영",
-      companylogo: require("./assets/images/asiaLogo.png"),
+      companylogo: AsiaLogo,
       date: "2020.10 – 2022.02",
       descBullets: [
         "인사 관리 및 복지 개선",
@@ -218,7 +231,7 @@ const workExperiences = {
     {
       role: "프론트데스크 인챠지",
       company: "Oceansuites Jeju",
-      companylogo: require("./assets/images/oceansuitesLogo.png"),
+      companylogo: OceanLogo,
       date: "2013.09 – 2019.09",
       descBullets: [
         "고객 응대 및 예약 관리",
@@ -244,7 +257,7 @@ const bigProjects = {
   subtitle: " ",
   projects: [
     {
-      image: require("./assets/images/logo.png"),
+      image: Logo,
       projectName: "Stay Connect",
       projectDesc: "배웠던 것들을 적용하여 학습하고 오류를 해결하면서 성장하고 기술을 익히기 위해 프로젝트 진행",
       footerLink: [
@@ -276,14 +289,15 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Certifications 🏆 "),
   subtitle:
-    "",
+    "IT 관련 자격증만 기재 (이 외 전산회계 2급, 회계관리 2급, 1종 보통 면허 보유)",
+    // "",
 
   achievementsCards: [
     {
       title: "정보처리산업기사",
       subtitle:
         "한국산업인력공단<br/>2024.09 합격",
-      image: require("./assets/images/HRDK.png"),
+      image: HRDKImage,
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -300,37 +314,11 @@ const achievementSection = {
         // }
       ]
     },
-    {
-      title: "SQL개발자(SQLD)",
-      subtitle:
-        "한국데이터베이스진흥센터<br/>2024.04 합격",
-      image: require("./assets/images/data.png"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/1tVM3XkjLokuGoXCSUE7RdkMaBvOvaxId/view?usp=sharing"
-        },
-      ]
-    },
-
-    {
-      title: "데이터분석준전문가(ADsP)",
-      subtitle: "한국데이터베이스진흥센터<br/>2024.03 합격",
-      image: require("./assets/images/data.png"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/1YfUxyACyLKxdq3L0ADtxX_Oc4xfGJ_GD/view?usp=sharing"
-        }
-      ]
-    },
 
     {
       title: "빅데이터분석기사",
       subtitle: "데이터자격검정<br/>2024.09 필기 합격",
-      image: require("./assets/images/data.png"),
+      image: DataImage,
       imageAlt: "PWA Logo",
       footerLink: [
         {
@@ -343,7 +331,7 @@ const achievementSection = {
     {
       title: "리눅스 마스터 2급",
       subtitle: "한국정보통신인력개발센터<br/>2024.05 1차 합격",
-      image: require("./assets/images/KAIT.png"),
+      image: KAITImage,
       imageAlt: "PWA Logo",
       footerLink: [
         {
@@ -354,46 +342,74 @@ const achievementSection = {
     },
 
     {
-      title: "전산회계 2급",
-      subtitle: "한국세무사협회<br/>2021.08 합격",
-      image: require("./assets/images/koreaTax.png"),
-      imageAlt: "PWA Logo",
+      title: "SQL개발자(SQLD)",
+      subtitle:
+        "한국데이터베이스진흥센터<br/>2024.04 합격",
+      image: DataImage,
+      imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1LtuDyV2nb5T7l9xPzcws1dY2ESnh-AsP/view?usp=sharing"
-        }
+          url: "https://drive.google.com/file/d/1tVM3XkjLokuGoXCSUE7RdkMaBvOvaxId/view?usp=sharing"
+        },
       ]
     },
 
     {
-      title: "회계관리 2급",
-      subtitle: "삼일회계법인<br/>2015.03 합격",
-      image: require("./assets/images/samil.png"),
+      title: "데이터분석준전문가(ADsP)",
+      subtitle: "한국데이터베이스진흥센터<br/>2024.03 합격",
+      image: DataImage,
       imageAlt: "PWA Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1A4BE5rrshidgCN1J4y_QUBTr6H_v7UMJ/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1YfUxyACyLKxdq3L0ADtxX_Oc4xfGJ_GD/view?usp=sharing"
         }
       ]
     },
 
-    {
-      title: "1종 보통 운전 면허",
-      subtitle: "경찰청(운전면허시험관리단)<br/>2012.01 합격",
-      image: require("./assets/images/drive.png"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        // {
-        //   name: "Certification",
-        //   url: "https://drive.google.com/file/d/1jZfZXJ0Fz24yoRQWlAARhxiyL1rzmt2V/view?usp=sharing"
-        // }
-      ]
-    }
+    // {
+    //   title: "전산회계 2급",
+    //   subtitle: "한국세무사협회<br/>2021.08 합격",
+    //   image: KoreaTaxImage,
+    //   imageAlt: "PWA Logo",
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://drive.google.com/file/d/1LtuDyV2nb5T7l9xPzcws1dY2ESnh-AsP/view?usp=sharing"
+    //     }
+    //   ]
+    // },
+
+    // {
+    //   title: "회계관리 2급",
+    //   subtitle: "삼일회계법인<br/>2015.03 합격",
+    //   image: SamilImage,
+    //   imageAlt: "PWA Logo",
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://drive.google.com/file/d/1A4BE5rrshidgCN1J4y_QUBTr6H_v7UMJ/view?usp=sharing"
+    //     }
+    //   ]
+    // },
+
+    // {
+    //   title: "1종 보통 운전 면허",
+    //   subtitle: "경찰청(운전면허시험관리단)<br/>2012.01 합격",
+    //   image: DriveImage,
+    //   imageAlt: "PWA Logo",
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://drive.google.com/file/d/1jZfZXJ0Fz24yoRQWlAARhxiyL1rzmt2V/view?usp=sharing"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Blogs Section
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './AchievementCard.scss'
+import PropTypes from 'prop-types'
 
 export default function AchievementCard({cardInfo, isDark}) {
   function openUrlInNewTab(url, name) {
@@ -29,7 +30,7 @@ export default function AchievementCard({cardInfo, isDark}) {
         </p>
       </div>
       <div className="certificate-card-footer">
-        {cardInfo.footer.map((v, i) => {
+        {cardInfo.footer && cardInfo.footer.length > 0 && cardInfo.footer.map((v, i) => {
           return (
             <span
               key={i}
@@ -45,4 +46,20 @@ export default function AchievementCard({cardInfo, isDark}) {
       </div>
     </div>
   )
+}
+
+AchievementCard.propTypes = {
+  cardInfo: PropTypes.shape({
+    image: PropTypes.string.isRequired,
+    imageAlt: PropTypes.string,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    footer: PropTypes.arrayOf(
+      PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        url: PropTypes.string.isRequired
+      })
+    ).isRequired,
+  }).isRequired,
+  isDark: PropTypes.bool.isRequired
 }
