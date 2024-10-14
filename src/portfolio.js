@@ -14,9 +14,9 @@ import OceanLogo from './assets/images/oceansuitesLogo.png';
 import HRDKImage from './assets/images/HRDK.png';
 import DataImage from './assets/images/data.png';
 import KAITImage from './assets/images/KAIT.png';
-import KoreaTaxImage from './assets/images/koreaTax.png';
-import SamilImage from './assets/images/samil.png';
-import DriveImage from './assets/images/drive.png';
+// import KoreaTaxImage from './assets/images/koreaTax.png';
+// import SamilImage from './assets/images/samil.png';
+// import DriveImage from './assets/images/drive.png';
 
 // Splash Screen
 
@@ -39,7 +39,7 @@ const greeting = {
     "열정과 의지를 가진 비전공 출신 풀스택 개발자 '조은파'입니다. 💻 JavaScript / React 및 기타 라이브러리와 프레임워크로 웹 애플리케이션을 구축한 경험이 있습니다."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1WewscFV-SIlb0bz7WAo3raCJRHbVI1CO/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/14sRzMGFCbuDX6e0UZEqA-YcHMLUGlySW/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
