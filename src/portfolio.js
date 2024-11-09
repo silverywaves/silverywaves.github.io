@@ -6,6 +6,7 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 import Logo from './assets/images/logo.png';
+import TodoLogo from './assets/images/todoLogo.png';
 import LogoImage1 from './assets/images/yeungjinLogo.png';
 import LogoImage2 from './assets/images/koreaItLogo.png';
 import MaisonLogo from './assets/images/maisonLogo.png';
@@ -268,17 +269,17 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    // {
-    //   image: require("./assets/images/nextuLogo.webp"),
-    //   projectName: "Nextu",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: "http://nextu.se/"
-    //     }
-    //   ]
-    // }
+    {
+      image: TodoLogo,
+      projectName: "Todo List",
+      projectDesc: "투두리스트와 캘린더를 연결하여 실생활에 이용 뿐만 아니라 리액트 기술 성장을 위해 프로젝트 진행",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reactprac.github.io/React_TODO/"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -479,7 +480,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "연락을 원하신다면 :)",
+    ":)",
   number: "010-8323-2054",
   email_address: "babyshu1210@gmail.com"
 };
