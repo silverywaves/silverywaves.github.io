@@ -264,7 +264,11 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://stayconnect.shop/"
+          url: "https://stayconnect.shop/",
+        },
+        {
+          name: "PPT",
+          url: "https://docs.google.com/presentation/d/1pu406RxSuEICACs5fY_zQB6XIuaSf2XE/edit?usp=sharing&ouid=102632994829930081263&rtpof=true&sd=true"
         }
         //  you can add extra buttons here.
       ]
