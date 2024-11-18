@@ -5,7 +5,9 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
+import firstBithLogo from './assets/images/firstBithLogo.png'
 import Logo from './assets/images/logo.png';
+import ShoeShopLogo from './assets/images/ShoeShopLogo.png';
 import TodoLogo from './assets/images/todoLogo.png';
 import LogoImage1 from './assets/images/yeungjinLogo.png';
 import LogoImage2 from './assets/images/koreaItLogo.png';
@@ -258,6 +260,22 @@ const bigProjects = {
   subtitle: " ",
   projects: [
     {
+      image: firstBithLogo,
+      projectName: "First Birthday",
+      projectDesc: "HTML, CSS, JavaScript 만 사용하여 돌잔치 초대장을 만들어보며 기술을 익히기 위해 프로젝트 진행",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://projectlist2024.github.io/FIRST_BIRTHDAY/",
+        },
+        {
+          name: "Code",
+          url: "https://github.com/PROJECTLIST2024/FIRST_BIRTHDAY.git"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: Logo,
       projectName: "Stay Connect",
       projectDesc: "배웠던 것들을 적용하여 학습하고 오류를 해결하면서 성장하고 기술을 익히기 위해 프로젝트 진행",
@@ -269,8 +287,27 @@ const bigProjects = {
         {
           name: "PPT",
           url: "https://docs.google.com/presentation/d/1pu406RxSuEICACs5fY_zQB6XIuaSf2XE/edit?usp=sharing&ouid=102632994829930081263&rtpof=true&sd=true"
+        },
+        {
+          name: "Code",
+          url: "https://github.com/caterpillar-team/STAY_CONNECT.git"
         }
         //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: ShoeShopLogo,
+      projectName: "Shoe Shop",
+      projectDesc: "리액트의 기본 사용법을 숙지하여 가상 쇼핑몰을 만들어보며 실무 연습을 위해 프로젝트 진행",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reactprac.github.io/React_Project_shop"
+        },
+        {
+          name: "Code",
+          url: "https://github.com/ReactPrac/React_Project_shop.git"
+        }
       ]
     },
     {
@@ -281,6 +318,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://reactprac.github.io/React_TODO/"
+        },
+        {
+          name: "Code",
+          url: "https://github.com/ReactPrac/React_TODO.git"
         }
       ]
     }
